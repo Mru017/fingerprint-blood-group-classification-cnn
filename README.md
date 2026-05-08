@@ -1,14 +1,13 @@
 # Fingerprint Blood Group Classification using CNN
-# Fingerprint Blood Group Classification using CNN
 
-## 📌 Project Overview
+## Project Overview
 This project presents a deep learning-based biometric classification system for predicting blood groups using fingerprint images. The system utilizes a Convolutional Neural Network (CNN) developed with PyTorch to analyze fingerprint patterns and classify blood groups.
 
 The project includes image preprocessing, CNN model training, evaluation, and deployment through a Gradio web interface for real-time prediction.
 
 ---
 
-## 🚀 Features
+## Features
 - Fingerprint image preprocessing and normalization
 - CNN-based image classification using PyTorch
 - Real-time blood group prediction
@@ -18,7 +17,7 @@ The project includes image preprocessing, CNN model training, evaluation, and de
 
 ---
 
-## 🛠️ Technologies Used
+## Technologies Used
 - Python
 - PyTorch
 - CNN (Convolutional Neural Network)
@@ -30,7 +29,7 @@ The project includes image preprocessing, CNN model training, evaluation, and de
 
 ---
 
-## 📂 Dataset
+## Dataset
 The dataset consists of fingerprint images categorized into multiple blood group classes:
 - A+
 - A-
@@ -47,7 +46,7 @@ The dataset was divided into:
 
 ---
 
-## 🧠 Model Architecture
+## Model Architecture
 The CNN model contains:
 - Convolution Layers
 - ReLU Activation
@@ -57,7 +56,7 @@ The CNN model contains:
 
 ---
 
-## 📊 Model Performance
+## Model Performance
 | Metric | Value |
 |---|---|
 | Model Type | CNN |
@@ -67,45 +66,38 @@ The CNN model contains:
 
 ---
 
-## ▶️ How to Run the Project
+## How to Run the Project
 
 ### 1️⃣ Install Required Libraries
 ```bash
 pip install -r requirements.txt
+```
 
 ### 2️⃣ Train the Model
+```bash
 python cnn_pytorch.py
+```
 
-Run the Gradio App
+### 3️⃣ Run the Gradio App
+```bash
 python app.py
+```
 
-🌐 Deployment
+Deployment
 The project is deployed using Gradio for real-time fingerprint image prediction.
 Upload a fingerprint image and the model predicts the corresponding blood group.
 
-📁 Project Structure
+Project Structure
 blood_dataset/│├── app.py├── cnn_pytorch.py├── fastcnn_model.pth├── requirements.txt├── confusion_matrix.png├── train/└── test/
 
-🔮 Future Improvements
+Future Improvements
+- Improve classification accuracy using larger datasets
+- Implement transfer learning models
+- Reduce class confusion between positive and negative blood groups
+- Deploy as a cloud-hosted web application
+- Develop mobile-friendly prediction interface
 
-
-Improve classification accuracy using larger datasets
-
-
-Implement transfer learning models
-
-
-Reduce class confusion between positive and negative blood groups
-
-
-Deploy as a cloud-hosted web application
-
-
-Develop mobile-friendly prediction interface
-
-
-
-📌 Conclusion
+Conclusion
 This project demonstrates the application of deep learning and computer vision techniques in biometric-based blood group classification. The CNN model successfully performs fingerprint image analysis and real-time prediction through an interactive deployment interface.
 
 
