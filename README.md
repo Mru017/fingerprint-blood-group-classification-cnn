@@ -83,21 +83,39 @@ python cnn_pytorch.py
 python app.py
 ```
 
-Deployment
-The project is deployed using Gradio for real-time fingerprint image prediction.
-Upload a fingerprint image and the model predicts the corresponding blood group.
+## Deployment
 
-Project Structure
-blood_dataset/│├── app.py├── cnn_pytorch.py├── fastcnn_model.pth├── requirements.txt├── confusion_matrix.png├── train/└── test/
+The project is deployed using Gradio for real-time fingerprint image prediction.  
+Users can upload a fingerprint image through the web interface, and the trained CNN model predicts the corresponding blood group.
 
-Future Improvements
-- Improve classification accuracy using larger datasets
-- Implement transfer learning models
+---
+
+## Project Structure
+
+```text
+blood_dataset/
+│
+├── app.py
+├── cnn_pytorch.py
+├── fastcnn_model.pth
+├── requirements.txt
+├── confusion_matrix.png
+├── train/
+└── test/
+```
+
+---
+
+## Future Improvements
+
+- Improve classification accuracy using larger and balanced datasets
+- Implement transfer learning techniques for better feature extraction
 - Reduce class confusion between positive and negative blood groups
-- Deploy as a cloud-hosted web application
-- Develop mobile-friendly prediction interface
+- Deploy the application on cloud platforms for public accessibility
+- Develop a mobile-friendly interface for real-time prediction
 
-Conclusion
-This project demonstrates the application of deep learning and computer vision techniques in biometric-based blood group classification. The CNN model successfully performs fingerprint image analysis and real-time prediction through an interactive deployment interface.
+---
 
+##  Conclusion
 
+This project demonstrates the application of deep learning and computer vision techniques in biometric-based blood group classification. The CNN model successfully performs fingerprint image analysis and provides real-time prediction through an interactive Gradio deployment interface.
