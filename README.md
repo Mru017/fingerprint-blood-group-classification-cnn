@@ -96,7 +96,7 @@ Users can upload a fingerprint image through the web interface, and the trained 
 blood_dataset/
 │
 ├── app.py
-├── cnn_pytorch.py
+├── cnn_pytorch1.py
 ├── fastcnn_model.pth
 ├── requirements.txt
 ├── confusion_matrix.png
