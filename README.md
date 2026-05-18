@@ -7,6 +7,11 @@ The project includes image preprocessing, CNN model training, evaluation, and de
 
 ---
 
+## Application Preview
+![Gradio App](gradio_app_preview.png)
+
+---
+
 ## Features
 - Fingerprint image preprocessing and normalization
 - CNN-based image classification using PyTorch
